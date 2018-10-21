@@ -213,7 +213,7 @@ def print_output(precision, recall, k_clusters):
 if __name__ == '__main__':
 
     if 4 != len(sys.argv):
-        print("USAGE: python pramod_setlur_hclust.py [INPUT_FILE] [K_CLUSTERS] [LINKAGE_TYPE]")
+        print("USAGE: python agglo.py [INPUT_FILE] [K_CLUSTERS] [LINKAGE_TYPE]")
     else:
         input_file = sys.argv[1]
 

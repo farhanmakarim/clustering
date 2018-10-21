@@ -1,7 +1,7 @@
 import numpy as np
 import unittest
 
-from ./distance import euclidean
+from .distance import euclidean
 
 def single_linkage(clust_a, clust_b, points):
     d = np.inf
@@ -14,7 +14,7 @@ def single_linkage(clust_a, clust_b, points):
     return d
 
 def complete_linkage(clust_a, clust_b, points):
-    d = np.ninf
+    d = np.inf * (-1)
 
     for a in clust_a:
         for b in clust_b:
